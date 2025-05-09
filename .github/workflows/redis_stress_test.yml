@@ -2,8 +2,8 @@ name: Redis EC2 Test
 
 on:
   workflow_dispatch:  # allows manual run
-  schedule:
-    - cron: "*/5 * * * *"  # runs every 5 minutes
+  #schedule:
+    #- cron: "*/5 * * * *"  # runs every 5 minutes
 
 jobs:
   redis-test:
